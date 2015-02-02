@@ -70,18 +70,25 @@
       <footer>
         <p>&copy; Company 2015</p>
       </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+
+    </div> <!-- /container -->  
+    <div class="parallax-section-2"></div>     
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/parallax-plugin.js"></script>
         <script>
           $(function(){
 
             $('.parallax-section-1').parallax({
             speed : 0.15
+            });
+            $('.parallax-section-2').parallax({
+            speed : 0.05
             });
           });
         </script>
