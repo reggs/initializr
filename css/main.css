@@ -8,11 +8,12 @@
 
 
 .parallax-section-1 {
-height: 450px;
+height: 550px;
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url('../img/bg1.jpg');
+    background-image: url('../img/bg4.png');
+    position:relative;
 }
 
 .parallax-section-2 {
@@ -23,17 +24,33 @@ height: 700px;
     background-image: url('../img/bg2.png');
 }
 
+.parallax-section-3 {
+height: 700px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../img/bg3.png');
+}
+
+.headingy {
+    bottom: 15px;
+    color: white;
+    font-size: 80px;
+    left: 115px;
+    position: absolute;
+}
+
 
 
 
 
 /* Desktop Parallax Photo */
 @media (min-width: 651px){
-    .parallax-section-1 { background-image: url('../img/bg1.jpg'); }
+    .parallax-section-1 { background-image: url('../img/bg4.png'); }
 }
 /* Mobile Parallax Photo */
 @media (max-width: 650px) {
-    .parallax-section-1 { background-image: url('../img/bg1.jpg'); height: 300px; }
+    .parallax-section-1 { background-image: url('../img/bg4.png'); height: 300px; }
 }
 
 
