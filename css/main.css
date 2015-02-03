@@ -4,7 +4,11 @@
    Author's custom styles
    ========================================================================== */
 
+.container-full {
+  margin: 0 auto;
+  width: 100%;
 
+}
 
 
 .parallax-section-1 {
@@ -40,9 +44,12 @@ height: 700px;
     position: absolute;
 }
 
-
-
-
+.jumbotron2{
+    background-color: #E82C0C;
+    color: inherit;
+    margin-bottom: 30px;
+    padding: 30px 15px;
+}
 
 /* Desktop Parallax Photo */
 @media (min-width: 651px){
